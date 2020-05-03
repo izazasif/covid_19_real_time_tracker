@@ -1,0 +1,64 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+.profile-env section.profile-info-tabs .nav-tabs li a {
+	padding: 10px 15px;
+}
+
+.guide {
+	font-size: 14px;
+}
+
+#print-head {
+	display: none;
+}
+.only-print{
+	display: none;
+}
+.hajji-installment {
+	color: #222;
+	width: 90%;
+	font-size: 14px;
+	margin: 40px auto;
+}
+
+.hajji-installment form {
+	margin: 20px 0px;
+}
+
+.page-container .sidebar-menu {
+	width: 270px;
+}
+
+.head-title {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+
+table {
+	color: #000;
+}
+
+.yearly-report {
+	width: 80%;
+	margin: 0px auto;
+	font-size: 14px;
+}
+
+.yearly-report tbody tr td {
+	vertical-align: middle;
+}
+
+.footer-main {
+	position: absolute;
+	bottom: 10px;
+	margin: 0px auto;
+	width: 95%;
+}
+
+.footerTable {
+	width: 100%;
+}
