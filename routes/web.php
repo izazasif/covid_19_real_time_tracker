@@ -18,6 +18,8 @@ Route::get('/', function () {
 //health
 Route::get('/health','healthController@index')->name('front_event.health');
 Route::get('/dis','disController@index')->name('front_event.dis');
+Route::get('/analyze','anyController@index')->name('front_event.analyze');
+Route::get('/map','mapController@index')->name('front_event.map');
 
 //ForntEvent
 Route::get('/event', 'FeventController@index')->name('front_event.index');

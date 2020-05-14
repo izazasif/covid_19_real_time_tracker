@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class disController extends Controller
+class mapController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,10 +13,7 @@ class disController extends Controller
      */
     public function index()
     {
-        $data = file_get_contents('http://covid19tracker.gov.bd/api/district?fbclid=IwAR3xYv2WsJ22BWzTLI0FeAtwu4cs0oeKdU1l-yndFUMfufOE30fYPYuKaEw');
-        $dis=json_decode($data,true);
-        
-        return view('front_event.dis',['dis' => $dis]);
+        return view('front_event.map');
     }
 
     /**
@@ -26,7 +23,7 @@ class disController extends Controller
      */
     public function create()
     {
-        //5$z8R(OUBmn#aUBLKCGb
+        //
     }
 
     /**

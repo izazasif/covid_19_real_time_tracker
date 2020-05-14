@@ -40,6 +40,8 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li class="active-"><a href="{{route('front_event.map')}}">Maps</a></li>
+              <li class="active-"><a href="{{route('front_event.analyze')}}">Analyze</a></li>
                 <li class="active-"><a href="{{route('front_event.health')}}">Live</a></li>
                
                 <!-- <li class="has-children">
