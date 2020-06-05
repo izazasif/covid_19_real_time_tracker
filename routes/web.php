@@ -14,7 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+//payment
+Route::get('/payment','paymentController@index')->name('front_event.payment');
+//Route::post('/payment','paymentController@store');
+Route::post('stripe', 'paymentController@store')->name('stripe.post');
 //health
 Route::get('/health','healthController@index')->name('front_event.health');
 Route::get('/dis','disController@index')->name('front_event.dis');

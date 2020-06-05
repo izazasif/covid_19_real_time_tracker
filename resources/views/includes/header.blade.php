@@ -43,7 +43,7 @@
               <li class="active-"><a href="{{route('front_event.map')}}">Maps</a></li>
               <li class="active-"><a href="{{route('front_event.analyze')}}">Analyze</a></li>
                 <li class="active-"><a href="{{route('front_event.health')}}">Live</a></li>
-               
+                <li class="active-"><a href="{{route('front_event.payment')}}">Payment</a></li>
                 <!-- <li class="has-children">
                   <a href="about.html">About</a>
                   <ul class="dropdown">
